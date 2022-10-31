@@ -1,17 +1,11 @@
-// import 'index.css';
 const form = document.querySelector('form');
 const input = document.querySelector('.form-input');
 const chat = document.querySelector('.chat')
-const back_button = document.querySelector('.back-button')
+const back_button = document.querySelector('.header-wrapper__button')
 
 form.addEventListener('submit', handleSubmit.bind(this));
 document.addEventListener('DOMContentLoaded', getMesagesFromLocalStorage.bind(this))
 back_button.addEventListener('click', goToMainPage.bind(this))
-
-function goToMainPage(event) {
-  // заглушка
-  window.location.href = '../main-page/index.html';
-}
 
 function checkLocalStorageAvailable() {
   try {
@@ -92,7 +86,7 @@ function handleSubmit (event) {
     let message = {
       'text': input.value,
       'date': `${time.getHours()}:${time.getMinutes()}`,
-      'sender_name': '' 
+      'sender_name': 'Mark' 
     };
     if (input.value) {
       createMessageBlock(message);
