@@ -6,13 +6,13 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 
-const SRC_PATH = path.resolve(__dirname, 'src');
+const SRC_PATH = path.resolve(__dirname, 'dialog-window');
 const BUILD_PATH = path.resolve(__dirname, 'build');
 
 module.exports = {
     context: SRC_PATH,
     entry: {
-        index: './index.js',
+        index: './script.js',
     },
     output: {
         path: BUILD_PATH,
