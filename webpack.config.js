@@ -22,7 +22,7 @@ module.exports = {
         strictExportPresence: true,
         rules: [
             {
-                test: /\.js$/,
+                test: /script\.js$/,
                 include: SRC_PATH,
                 use: [
                     {
@@ -43,7 +43,7 @@ module.exports = {
                 ],
             },
             {
-                test: /index\.css$/,
+                test: /style\.css$/,
                 include: SRC_PATH,
                 use: [
                     {
