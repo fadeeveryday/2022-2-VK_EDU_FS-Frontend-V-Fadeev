@@ -23,7 +23,6 @@ module.exports = {
         rules: [
             {
                 test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
-                type: 'img/resource'
             },
             {   
                 test: /\.js$/,
