@@ -22,7 +22,8 @@ module.exports = {
         strictExportPresence: true,
         rules: [
             {
-                test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+                test: /\.(svg|gif|png|jpg|jpeg)$/i,
+                type: 'asset/resource'
             },
             {   
                 test: /\.js$/,
