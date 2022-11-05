@@ -1,8 +1,11 @@
-//import './css/style.css';
 const form = document.querySelector('form');
 const input = document.querySelector('form-input');
-const chat = document.querySelector('.chat')
-const back_button = document.querySelector('.header-wrapper__button')
+const chat = document.querySelector('.chat');
+const back_button = document.querySelector('.header-wrapper__button');
+const img = new Image();
+img.src = './img/avatar.jpg';
+page.appendChild(img);
+
 
 form.addEventListener('submit', handleSubmit.bind(this));
 document.addEventListener('DOMContentLoaded', getMesagesFromLocalStorage.bind(this))
