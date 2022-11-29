@@ -1,0 +1,47 @@
+.chat-list {
+  margin-top: 50px;
+}
+.chat-window {
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  background-color: #fff1;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+.user-name {
+  font-weight: normal;
+  font-size: 16px;
+}
+.user-message {
+  color: grey;
+}
+.chat-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 15px;
+}
+.image-container {
+  margin-right: 15px;
+}
+.user-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.done_all {
+  color: #8E24AA;
+}
+.create-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 205, 63);
+  border: none;
+}

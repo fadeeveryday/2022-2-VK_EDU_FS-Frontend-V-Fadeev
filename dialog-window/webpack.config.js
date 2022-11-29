@@ -22,10 +22,6 @@ module.exports = {
         strictExportPresence: true,
         rules: [
             {
-                test: /\.(svg|gif|png|jpg|jpeg)$/i,
-                type: 'asset/resource'
-            },
-            {   
                 test: /\.js$/,
                 include: SRC_PATH,
                 use: [
